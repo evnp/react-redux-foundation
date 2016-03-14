@@ -1,6 +1,6 @@
 {
   "name": "React+Redux Template",
-  "description": "A simple React+Redux app to serve as a starting point for more complex apps",
+  "description": "A simple React+Redux app",
   "version": "0.0.1",
   "author": "Evan Purcer <evanpurcer@gmail.com>",
   "repository": {

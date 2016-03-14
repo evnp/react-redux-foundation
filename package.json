@@ -1,0 +1,53 @@
+{
+  "name": "React+Redux Template",
+  "description": "A simple React+Redux app to serve as a starting point for more complex apps",
+  "version": "0.0.1",
+  "author": "Evan Purcer <evanpurcer@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evnp/react-redux-template"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.7.2",
+    "babel-runtime": "^6.6.1",
+    "jquery": "^2.2.1",
+    "lodash": "^4.6.1",
+    "react": "^0.14.7",
+    "react-addons-shallow-compare": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-redux": "^4.4.1",
+    "redux": "^3.3.1",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "babel": "^6.5.2",
+    "babel-core": "^6.7.2",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-syntax-trailing-function-commas": "^6.5.0",
+    "babel-plugin-transform-class-properties": "^6.6.0",
+    "babel-plugin-transform-object-rest-spread": "^6.6.5",
+    "babel-plugin-transform-runtime": "^6.6.0",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "cssnano": "^3.5.2",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "git-rev-sync": "^1.4.0",
+    "html-webpack-plugin": "^2.10.0",
+    "json-loader": "^0.5.4",
+    "poststylus": "^0.2.3",
+    "style-loader": "^0.13.0",
+    "stylus": "^0.54.2",
+    "stylus-loader": "^1.5.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.14"
+  },
+  "scripts": {
+    "build":     "./node_modules/.bin/webpack --optimize-minimize",
+    "build-dev": "./node_modules/.bin/webpack --debug --devtool sourcemap --output-pathinfo",
+    "watch":     "./node_modules/.bin/webpack --debug --devtool sourcemap --output-pathinfo --watch"
+  }
+}

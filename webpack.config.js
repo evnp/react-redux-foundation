@@ -49,7 +49,7 @@ module.exports = {
             },
             { // Style loader - bundle .styl imports in .js files into a single .css file
                 test: /\.styl$/,
-                include: __dirname + '/src/styles',
+                include: __dirname + '/src/style',
                 loader: ExtractTextPlugin.extract('style-loader', 'css-loader!stylus-loader'),
             },
             { // Image loader - resolve "url(...)" statements in .css files to images

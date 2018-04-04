@@ -90,7 +90,7 @@ module.exports = {
       inject: 'body', // inject js file reference into body element
     }),
   ].concat(process.argv.includes('--notify') ? new WebpackBuildNotifierPlugin({
-    title: 'Golf',
+    title: 'React/Redux Founcation',
     sound: false,
   }) : []),
 };

@@ -48,7 +48,8 @@
     "webpack-dev-server": "^1.14.1"
   },
   "scripts": {
-    "start": "node_modules/.bin/webpack-dev-server --hot --inline --notify",
+    "start": "node_modules/.bin/webpack-dev-server --hot --inline",
+    "start-notify": "node_modules/.bin/webpack-dev-server --hot --inline --notify",
     "build": "npm run build-dev",
     "build-prod": "NODE_ENV=production ./node_modules/.bin/webpack --optimize-minimize",
     "build-dev": "NODE_ENV=development ./node_modules/.bin/webpack --debug --devtool sourcemap --output-pathinfo",

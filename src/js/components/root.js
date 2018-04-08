@@ -5,7 +5,7 @@ import Rocket from './rocket';
 
 import '../../style/components/root.styl';
 
-export default class Root extends PureRenderComponent {
+export default class extends PureRenderComponent {
     render = () =>
         <div className="root-component">
             <Rocket {...this.props} />

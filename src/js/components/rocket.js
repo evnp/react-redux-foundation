@@ -9,7 +9,7 @@ export default class Rocket extends PureRenderComponent {
         <div
          className="rocket-component"
          onClick={this.launch}
-         style={{ 'margin-top': -this.props.state.payload * 10 }}>
+         style={{marginTop: -this.props.state.payload * 10}}>
             Payload: {this.props.state.payload}
         </div>
 

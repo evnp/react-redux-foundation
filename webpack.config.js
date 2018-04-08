@@ -70,11 +70,6 @@ module.exports = (env={}, argv) => {
             },
           },
         },
-        { // JSON Loader - resolve .json imports in .js files to JavaScript objects
-          test: /\.json$/,
-          include: __dirname + `/src/json`,
-          use: [`json-loader`],
-        },
       ],
     },
     plugins: [

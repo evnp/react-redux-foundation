@@ -60,6 +60,19 @@ module.exports = (env={}, argv) => {
               stylusLoader,
             ],
         },
+        { // CSS Loader - bundle .css imports in .js files into a single .css file
+          test: /\.css$/,
+          use: argv.mode === `production` ? // only use the ExtractTextPlugin in production
+            ExtractTextPlugin.extract({
+              fallback: `style-loader`,
+              use: [`css-loader`],
+            })
+            :
+            [
+              `style-loader`,
+              `css-loader`,
+            ],
+        },
         { // Image Loader - resolve "url(...)" statements in .css files to images
           test: /\.(png|jpg|svg)$/,
           include: __dirname + `/src/images`,

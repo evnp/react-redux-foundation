@@ -15,6 +15,5 @@ Features:
 - [Image Loader](https://github.com/tcoopman/image-webpack-loader) used for handling images references in CSS files
   - images under 25k are embedded directly into generated CSS files
 - [Extract Text Plugin](https://github.com/webpack/extract-text-webpack-plugin) used to bundle all CSS chunks into a single file (only in production builds)
-- [React Hot Loader](https://gaearon.github.io/react-hot-loader/) used to auto-refresh React component code running in the browser (JS and CSS)
 - [Html Webpack Plugin](https://github.com/ampedandwired/html-webpack-plugin) used to generate index.html with hashed build file references for cachebusting
   - current git HEAD sha is used as hash for easily identifying the state of code in a build

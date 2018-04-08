@@ -3,11 +3,7 @@ React + Redux Foundation
 A starting point for React+Redux apps
 
 Features:
-- [Babel](http://babeljs.io/) JavaScript transpiling for JSX and es6 syntax, plus a few extras
-  - [object rest spread](https://babeljs.io/docs/plugins/transform-object-rest-spread/)
-  - [class properties](https://babeljs.io/docs/plugins/transform-class-properties/)
-    - allows auto-binding `this` in React class methods while still using es6 class syntax, see http://www.ian-thomas.net/autobinding-react-and-es6-classes/
-  - [trailing function commas](https://babeljs.io/docs/plugins/syntax-trailing-function-commas/)
+- [Babel](http://babeljs.io/) JavaScript transpiling for JSX and es6 syntax
 - [Stylus](http://stylus-lang.com/) CSS transpiling
   - [PostCSS](https://github.com/postcss/postcss) and [Autoprefixer](https://github.com/postcss/autoprefixer) used to automatically add vendor prefixes to CSS rules
 - [CSS Loader](https://github.com/webpack/css-loader) used to resolve `url(...)` and `@import` statements in CSS to appropriate Webpack `require(...)` statements
